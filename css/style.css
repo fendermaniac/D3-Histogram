@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+line {
+  stroke: red;
+}
+
+.header {
+  font-size: 2em;
+  margin-left: 250px;
+  margin-top: 1%
+}
+
+.chart {
+  display: block;
+  margin: auto;
+}
+
+.bar {
+}
+
+.bar:hover {
+  fill: orange;
+}
+g.tick line {
+  stroke: blue;
+}
+g.tick text {
+  font-size: 12px;
+  fill: blue;
+}
+
+div.tooltip {
+  background-color: green;
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 125px;
+  height: 35px;
+  padding: 5px;
+  border: 1px solid white;
+}
